@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{>headSetup}}
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather!</p>
+        <form id="forecastForm">
+            <input type="text" placeholder="Location" id="searchData">
+            <button >Search</button>
+        </form>
+
+        <p id='p1'></p>
+        <p id='p2'></p>
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
