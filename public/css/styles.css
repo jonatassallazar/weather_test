@@ -14,7 +14,7 @@ body {
     flex-grow: 1;
 }
 
-footer{
+footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
@@ -57,4 +57,25 @@ button {
     color: white;
     padding: 8px;
     border-radius: 0px 4px 4px 0px;
+}
+
+.weatherForecastInformation {
+    background-color: teal;
+    padding: 16px 32px;
+    color: white;
+    margin: 16px 0;
+    border-radius: 20px;
+    margin: 42px 0;
+    border-radius: 20px;
+}
+
+#p1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.weatherForecastInformation img {
+    width: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
 }
